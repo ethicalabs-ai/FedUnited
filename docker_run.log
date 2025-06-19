@@ -1,0 +1,305 @@
+ethicalabs@raspberrypi:~/Work/FedUnited $ docker compose up
+
+WARN[0000] /home/ethicalabs/Work/FedUnited/docker-compose.yaml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion
+WARN[0000] Found orphan containers ([fedunited-devcontainer-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up.
+[+] Running 1/1
+ ✔ Container fedunited-flower-client-node-1  Created                                                                                                                                                                                                                     0.0s
+Attaching to flower-client-node-1
+flower-client-node-1  | INFO :      Starting Flower SuperNode
+flower-client-node-1  | WARNING :   Both `--insecure` and `--root-certificates` were not set. Using system certificates.
+flower-client-node-1  | INFO :      Starting Flower ClientAppIo gRPC server on 0.0.0.0:9094
+flower-client-node-1  | INFO :
+flower-client-node-1  | INFO :      [RUN 10482227920929883118, ROUND 1]
+flower-client-node-1  | INFO :      Received: evaluate message e4e83897e0926308599bb72af0ea87cec4435f064ddd3f639a492b5ad511a27f
+flower-client-node-1  | INFO :      Start `flwr-clientapp` process
+flower-client-node-1  | INFO :      [flwr-clientapp] Pull `ClientAppInputs` for token 11966182858810682485
+flower-client-node-1  | 🎊 Successfully installed retinaloct to /root/.flwr/apps/Sasi.retinaloct.1.0.0.2190be2f.
+flower-client-node-1  | INFO :      [flwr-clientapp] Push `ClientAppOutputs` for token 11966182858810682485
+flower-client-node-1  | INFO :      Sent reply
+flower-client-node-1  | INFO :
+flower-client-node-1  | INFO :      [RUN 10482227920929883118, ROUND 2]
+flower-client-node-1  | INFO :      Received: train message b5c547246fd93d788fb33a584ff92a8fba73043a1b0fa5eabbee7556769ac291
+flower-client-node-1  | INFO :      Start `flwr-clientapp` process
+flower-client-node-1  | INFO :      [flwr-clientapp] Pull `ClientAppInputs` for token 1981153799378444877
+flower-client-node-1  | INFO :      [flwr-clientapp] Push `ClientAppOutputs` for token 1981153799378444877
+flower-client-node-1  | INFO :      Sent reply
+flower-client-node-1  | INFO :
+flower-client-node-1  | INFO :      [RUN 10482227920929883118, ROUND 2]
+flower-client-node-1  | INFO :      Received: evaluate message acbd381b8fba9f03d888882eeb816c8211965c9b8a515a997095d305b8285f4f
+flower-client-node-1  | INFO :      Start `flwr-clientapp` process
+flower-client-node-1  | INFO :      [flwr-clientapp] Pull `ClientAppInputs` for token 12949660134777738708
+flower-client-node-1  | INFO :      [flwr-clientapp] Push `ClientAppOutputs` for token 12949660134777738708
+flower-client-node-1  | INFO :      Sent reply
+flower-client-node-1  | INFO :
+flower-client-node-1  | INFO :      [RUN 10482227920929883118, ROUND 3]
+flower-client-node-1  | INFO :      Received: evaluate message 0645eed0e94160f552908c02d0a50baa4eb09466b854138fcf6ad750c76000de
+flower-client-node-1  | INFO :      Start `flwr-clientapp` process
+flower-client-node-1  | INFO :      [flwr-clientapp] Pull `ClientAppInputs` for token 16425790739845653033
+flower-client-node-1  | INFO :      [flwr-clientapp] Push `ClientAppOutputs` for token 16425790739845653033
+flower-client-node-1  | INFO :      Sent reply
+flower-client-node-1  | INFO :
+flower-client-node-1  | INFO :      [RUN 10482227920929883118, ROUND 4]
+flower-client-node-1  | INFO :      Received: evaluate message 69ff18c024a4a235d34ce30dff8fb9d358ca77cf9d13a14ac88f58ad33282aa4
+flower-client-node-1  | INFO :      Start `flwr-clientapp` process
+flower-client-node-1  | INFO :      [flwr-clientapp] Pull `ClientAppInputs` for token 6966414558036341397
+flower-client-node-1  | INFO :      [flwr-clientapp] Push `ClientAppOutputs` for token 6966414558036341397
+flower-client-node-1  | INFO :      Sent reply
+flower-client-node-1  | INFO :
+flower-client-node-1  | INFO :      [RUN 10482227920929883118, ROUND 5]
+flower-client-node-1  | INFO :      Received: train message 0a5a37304e698acebe9fbf9f711fbf69f0260d25fe7d86a59a945f64c6383e65
+flower-client-node-1  | INFO :      Start `flwr-clientapp` process
+flower-client-node-1  | INFO :      [flwr-clientapp] Pull `ClientAppInputs` for token 11583161084336047059
+flower-client-node-1  | INFO :      [flwr-clientapp] Push `ClientAppOutputs` for token 11583161084336047059
+flower-client-node-1  | INFO :      Sent reply
+flower-client-node-1  | INFO :
+flower-client-node-1  | INFO :      [RUN 10482227920929883118, ROUND 5]
+flower-client-node-1  | INFO :      Received: evaluate message 6943b82411710ecf131abdcb446870f0cf9eca95423db088c95f01b3598d5e3f
+flower-client-node-1  | INFO :      Start `flwr-clientapp` process
+flower-client-node-1  | INFO :      [flwr-clientapp] Pull `ClientAppInputs` for token 12948083442407770813
+flower-client-node-1  | INFO :      [flwr-clientapp] Push `ClientAppOutputs` for token 12948083442407770813
+flower-client-node-1  | INFO :      Sent reply
+flower-client-node-1  | INFO :
+flower-client-node-1  | INFO :      [RUN 297223895073163394, ROUND 1]
+flower-client-node-1  | INFO :      Received: evaluate message 579a8d55f7b699852f0ea7489f980c6a03aab94ad1ff4f898302a340072ae6ad
+flower-client-node-1  | INFO :      Start `flwr-clientapp` process
+flower-client-node-1  | INFO :      [flwr-clientapp] Pull `ClientAppInputs` for token 16870369075228941730
+flower-client-node-1  | 🎊 Successfully installed retinaloct to /root/.flwr/apps/Sasi.retinaloct.1.0.0.f14750de.
+flower-client-node-1  | INFO :      [flwr-clientapp] Push `ClientAppOutputs` for token 16870369075228941730
+flower-client-node-1  | Current validation accuracy is: 0.5052631578947369
+flower-client-node-1  | INFO :      Sent reply
+flower-client-node-1  | INFO :
+flower-client-node-1  | INFO :      [RUN 297223895073163394, ROUND 2]
+flower-client-node-1  | INFO :      Received: evaluate message d9c90db4da8a32985c91dcb40e205c90feb1d8782bba3f573ee0fcbda04b4af2
+flower-client-node-1  | INFO :      Start `flwr-clientapp` process
+flower-client-node-1  | INFO :      [flwr-clientapp] Pull `ClientAppInputs` for token 2406557977310436746
+flower-client-node-1  | INFO :      [flwr-clientapp] Push `ClientAppOutputs` for token 2406557977310436746
+flower-client-node-1  | Current validation accuracy is: 0.5052631578947369
+flower-client-node-1  | INFO :      Sent reply
+flower-client-node-1  | INFO :
+flower-client-node-1  | INFO :      [RUN 297223895073163394, ROUND 3]
+flower-client-node-1  | INFO :      Received: train message 6b0a16e373d02e369ab09bcbb171491bf0e8a12811e4d3f510fa4bab834d6a6c
+flower-client-node-1  | INFO :      Start `flwr-clientapp` process
+flower-client-node-1  | INFO :      [flwr-clientapp] Pull `ClientAppInputs` for token 16615397732872750145
+flower-client-node-1  | INFO :      [flwr-clientapp] Push `ClientAppOutputs` for token 16615397732872750145
+flower-client-node-1  | INFO :      Sent reply
+flower-client-node-1  | INFO :
+flower-client-node-1  | INFO :      [RUN 297223895073163394, ROUND 3]
+flower-client-node-1  | INFO :      Received: evaluate message c7ffc627cbb6d95f590a823b8113f62dac7ed62aab2bb7d7a3fc651b2c4b4fc9
+flower-client-node-1  | INFO :      Start `flwr-clientapp` process
+flower-client-node-1  | INFO :      [flwr-clientapp] Pull `ClientAppInputs` for token 7189042607055687890
+flower-client-node-1  | INFO :      [flwr-clientapp] Push `ClientAppOutputs` for token 7189042607055687890
+flower-client-node-1  | Current validation accuracy is: 0.5052631578947369
+flower-client-node-1  | INFO :      Sent reply
+flower-client-node-1  | INFO :
+flower-client-node-1  | INFO :      [RUN 297223895073163394, ROUND 4]
+flower-client-node-1  | INFO :      Received: train message 61ea9be3dddcefcf7209c9e7e72f277106f197ce7157585ffdaa1cab4d39d79f
+flower-client-node-1  | INFO :      Start `flwr-clientapp` process
+flower-client-node-1  | INFO :      [flwr-clientapp] Pull `ClientAppInputs` for token 557840743077282370
+flower-client-node-1  | INFO :      [flwr-clientapp] Push `ClientAppOutputs` for token 557840743077282370
+flower-client-node-1  | INFO :      Sent reply
+flower-client-node-1  | INFO :
+flower-client-node-1  | INFO :      [RUN 297223895073163394, ROUND 4]
+flower-client-node-1  | INFO :      Received: evaluate message 80cff576696d4362cbef9e811af8e34c8678cd601449469c79cc2bbf7e60e0cf
+flower-client-node-1  | INFO :      Start `flwr-clientapp` process
+flower-client-node-1  | INFO :      [flwr-clientapp] Pull `ClientAppInputs` for token 11237835949150167532
+flower-client-node-1  | INFO :      [flwr-clientapp] Push `ClientAppOutputs` for token 11237835949150167532
+flower-client-node-1  | Current validation accuracy is: 0.5052631578947369
+flower-client-node-1  | INFO :      Sent reply
+flower-client-node-1  | INFO :
+flower-client-node-1  | INFO :      [RUN 297223895073163394, ROUND 5]
+flower-client-node-1  | INFO :      Received: train message cd0ea8f519c4986ed1107129c842b74241a203722ffafb574d9fd90e31e3bcf1
+flower-client-node-1  | INFO :      Start `flwr-clientapp` process
+flower-client-node-1  | INFO :      [flwr-clientapp] Pull `ClientAppInputs` for token 2650218693166906437
+flower-client-node-1  | INFO :      [flwr-clientapp] Push `ClientAppOutputs` for token 2650218693166906437
+flower-client-node-1  | INFO :      Sent reply
+flower-client-node-1  | INFO :
+flower-client-node-1  | INFO :      [RUN 297223895073163394, ROUND 5]
+flower-client-node-1  | INFO :      Received: evaluate message fb4e11817664e26a195e6ef73bc6bb96d34a80ab42dd9ddfd452fa3ecf8e02cf
+flower-client-node-1  | INFO :      Start `flwr-clientapp` process
+flower-client-node-1  | INFO :      [flwr-clientapp] Pull `ClientAppInputs` for token 18198010202960160583
+flower-client-node-1  | INFO :      [flwr-clientapp] Push `ClientAppOutputs` for token 18198010202960160583
+flower-client-node-1  | Current validation accuracy is: 0.5052631578947369
+flower-client-node-1  | INFO :      Sent reply
+flower-client-node-1  | INFO :
+flower-client-node-1  | INFO :      [RUN 297223895073163394, ROUND 6]
+flower-client-node-1  | INFO :      Received: evaluate message cd97e509eaafa4f6c3aa1d88b81dea194b511cd371c20fb13a8e1bfc8d92a6db
+flower-client-node-1  | INFO :      Start `flwr-clientapp` process
+flower-client-node-1  | INFO :      [flwr-clientapp] Pull `ClientAppInputs` for token 5032772489345587065
+flower-client-node-1  | INFO :      [flwr-clientapp] Push `ClientAppOutputs` for token 5032772489345587065
+flower-client-node-1  | Current validation accuracy is: 0.5052631578947369
+flower-client-node-1  | INFO :      Sent reply
+flower-client-node-1  | INFO :
+flower-client-node-1  | INFO :      [RUN 297223895073163394, ROUND 7]
+flower-client-node-1  | INFO :      Received: evaluate message c787fd27a5840bb54b1c82219ecbd33d45b07be29519ed1eb550918f7b29850f
+flower-client-node-1  | INFO :      Start `flwr-clientapp` process
+flower-client-node-1  | INFO :      [flwr-clientapp] Pull `ClientAppInputs` for token 4933448193089955459
+flower-client-node-1  | INFO :      [flwr-clientapp] Push `ClientAppOutputs` for token 4933448193089955459
+flower-client-node-1  | Current validation accuracy is: 0.5052631578947369
+flower-client-node-1  | INFO :      Sent reply
+flower-client-node-1  | INFO :
+flower-client-node-1  | INFO :      [RUN 297223895073163394, ROUND 8]
+flower-client-node-1  | INFO :      Received: train message b026c5e262a74cb0b612f57deba3bdac4acc2465759b384c17b06fc11c852343
+flower-client-node-1  | INFO :      Start `flwr-clientapp` process
+flower-client-node-1  | INFO :      [flwr-clientapp] Pull `ClientAppInputs` for token 8432722982645740845
+flower-client-node-1  | INFO :      [flwr-clientapp] Push `ClientAppOutputs` for token 8432722982645740845
+flower-client-node-1  | INFO :      Sent reply
+flower-client-node-1  | INFO :
+flower-client-node-1  | INFO :      [RUN 297223895073163394, ROUND 8]
+flower-client-node-1  | INFO :      Received: evaluate message 05e2bc8c38c4be657a77f83a27259c44f96079083cc317330e10b0690b9dbf0c
+flower-client-node-1  | INFO :      Start `flwr-clientapp` process
+flower-client-node-1  | INFO :      [flwr-clientapp] Pull `ClientAppInputs` for token 16412204886691628006
+flower-client-node-1  | INFO :      [flwr-clientapp] Push `ClientAppOutputs` for token 16412204886691628006
+flower-client-node-1  | Current validation accuracy is: 0.5052631578947369
+flower-client-node-1  | INFO :      Sent reply
+flower-client-node-1  | INFO :
+flower-client-node-1  | INFO :      [RUN 297223895073163394, ROUND 9]
+flower-client-node-1  | INFO :      Received: evaluate message 89bf0b5841bf34cea84d6febda49d89c7bba4a175f92be5d4cbba93f8c6ce776
+flower-client-node-1  | INFO :      Start `flwr-clientapp` process
+flower-client-node-1  | INFO :      [flwr-clientapp] Pull `ClientAppInputs` for token 5516157196796473181
+flower-client-node-1  | INFO :      [flwr-clientapp] Push `ClientAppOutputs` for token 5516157196796473181
+flower-client-node-1  | Current validation accuracy is: 0.5052631578947369
+flower-client-node-1  | INFO :      Sent reply
+flower-client-node-1  | INFO :
+flower-client-node-1  | INFO :      [RUN 297223895073163394, ROUND 10]
+flower-client-node-1  | INFO :      Received: evaluate message 11f3f7fa2bc46f07369e2b19fae079bb7e267c876bb5ab81db2f94ea96c66efe
+flower-client-node-1  | INFO :      Start `flwr-clientapp` process
+flower-client-node-1  | INFO :      [flwr-clientapp] Pull `ClientAppInputs` for token 2837177381368964324
+flower-client-node-1  | INFO :      [flwr-clientapp] Push `ClientAppOutputs` for token 2837177381368964324
+flower-client-node-1  | Current validation accuracy is: 0.5052631578947369
+flower-client-node-1  | INFO :      Sent reply
+flower-client-node-1  | INFO :
+flower-client-node-1  | INFO :      [RUN 297223895073163394, ROUND 11]
+flower-client-node-1  | INFO :      Received: train message d7273b7f4cd7cb5a6d4c1a9a47fcd0964df6eac129c21d24230d24529582cfba
+flower-client-node-1  | INFO :      Start `flwr-clientapp` process
+flower-client-node-1  | INFO :      [flwr-clientapp] Pull `ClientAppInputs` for token 14608545487318432390
+flower-client-node-1  | INFO :      [flwr-clientapp] Push `ClientAppOutputs` for token 14608545487318432390
+flower-client-node-1  | INFO :      Sent reply
+flower-client-node-1  | INFO :
+flower-client-node-1  | INFO :      [RUN 297223895073163394, ROUND 11]
+flower-client-node-1  | INFO :      Received: evaluate message 450cb93e90d4792e9db10baad259c012698d0cd39694f0af13cd079dcbe26b44
+flower-client-node-1  | INFO :      Start `flwr-clientapp` process
+flower-client-node-1  | INFO :      [flwr-clientapp] Pull `ClientAppInputs` for token 6001359734619278353
+flower-client-node-1  | INFO :      [flwr-clientapp] Push `ClientAppOutputs` for token 6001359734619278353
+flower-client-node-1  | Current validation accuracy is: 0.5052631578947369
+flower-client-node-1  | INFO :      Sent reply
+flower-client-node-1  | INFO :
+flower-client-node-1  | INFO :      [RUN 297223895073163394, ROUND 12]
+flower-client-node-1  | INFO :      Received: train message cd8d68a52e82a64327ca9adbae45d2d85bf3cfb1933665af0799e7336c641861
+flower-client-node-1  | INFO :      Start `flwr-clientapp` process
+flower-client-node-1  | INFO :      [flwr-clientapp] Pull `ClientAppInputs` for token 14698893597035123210
+flower-client-node-1  | INFO :      [flwr-clientapp] Push `ClientAppOutputs` for token 14698893597035123210
+flower-client-node-1  | INFO :      Sent reply
+flower-client-node-1  | INFO :
+flower-client-node-1  | INFO :      [RUN 297223895073163394, ROUND 12]
+flower-client-node-1  | INFO :      Received: evaluate message a14cbedb3f30847f911b2eafcbfef1a92c5a64925c2ab10575e4ee38766ebac3
+flower-client-node-1  | INFO :      Start `flwr-clientapp` process
+flower-client-node-1  | INFO :      [flwr-clientapp] Pull `ClientAppInputs` for token 7705363324031566457
+flower-client-node-1  | INFO :      [flwr-clientapp] Push `ClientAppOutputs` for token 7705363324031566457
+flower-client-node-1  | Current validation accuracy is: 0.5052631578947369
+flower-client-node-1  | INFO :      Sent reply
+flower-client-node-1  | INFO :
+flower-client-node-1  | INFO :      [RUN 297223895073163394, ROUND 13]
+flower-client-node-1  | INFO :      Received: evaluate message bad2daaabb121f704774c4230c931f159a53baee0ebd9ec55b96b489f1d4ed1b
+flower-client-node-1  | INFO :      Start `flwr-clientapp` process
+flower-client-node-1  | INFO :      [flwr-clientapp] Pull `ClientAppInputs` for token 3136499755626232503
+flower-client-node-1  | INFO :      [flwr-clientapp] Push `ClientAppOutputs` for token 3136499755626232503
+flower-client-node-1  | Current validation accuracy is: 0.5052631578947369
+flower-client-node-1  | INFO :      Sent reply
+flower-client-node-1  | INFO :
+flower-client-node-1  | INFO :      [RUN 297223895073163394, ROUND 14]
+flower-client-node-1  | INFO :      Received: evaluate message 8c6764afa189347e5cd18a3aaf6565fd0a4d12fcc1e97da9562dc7835d6b864f
+flower-client-node-1  | INFO :      Start `flwr-clientapp` process
+flower-client-node-1  | INFO :      [flwr-clientapp] Pull `ClientAppInputs` for token 5696334311239151853
+flower-client-node-1  | INFO :      [flwr-clientapp] Push `ClientAppOutputs` for token 5696334311239151853
+flower-client-node-1  | Current validation accuracy is: 0.5052631578947369
+flower-client-node-1  | INFO :      Sent reply
+flower-client-node-1  | INFO :
+flower-client-node-1  | INFO :      [RUN 297223895073163394, ROUND 15]
+flower-client-node-1  | INFO :      Received: train message afa76c56c84deb954574fbe43204670a35aaed3c342ff5aba551f81cff698bae
+flower-client-node-1  | INFO :      Start `flwr-clientapp` process
+flower-client-node-1  | INFO :      [flwr-clientapp] Pull `ClientAppInputs` for token 4592468228000644466
+flower-client-node-1  | INFO :      [flwr-clientapp] Push `ClientAppOutputs` for token 4592468228000644466
+flower-client-node-1  | INFO :      Sent reply
+flower-client-node-1  | INFO :
+flower-client-node-1  | INFO :      [RUN 297223895073163394, ROUND 15]
+flower-client-node-1  | INFO :      Received: evaluate message cf4089281d9ca4dae75d5c61c321439d411c210f9f9f0f6aa6b09066f993d392
+flower-client-node-1  | INFO :      Start `flwr-clientapp` process
+flower-client-node-1  | INFO :      [flwr-clientapp] Pull `ClientAppInputs` for token 4033735910834801033
+flower-client-node-1  | INFO :      [flwr-clientapp] Push `ClientAppOutputs` for token 4033735910834801033
+flower-client-node-1  | Current validation accuracy is: 0.5052631578947369
+flower-client-node-1  | INFO :      Sent reply
+flower-client-node-1  | INFO :
+flower-client-node-1  | INFO :      [RUN 297223895073163394, ROUND 16]
+flower-client-node-1  | INFO :      Received: train message b62934b1b53783b041bbe1f1180c0d81d0e7915fdb2705cdc6d3e51cbe2517ca
+flower-client-node-1  | INFO :      Start `flwr-clientapp` process
+flower-client-node-1  | INFO :      [flwr-clientapp] Pull `ClientAppInputs` for token 1582448510451996598
+flower-client-node-1  | INFO :      [flwr-clientapp] Push `ClientAppOutputs` for token 1582448510451996598
+flower-client-node-1  | INFO :      Sent reply
+flower-client-node-1  | INFO :
+flower-client-node-1  | INFO :      [RUN 297223895073163394, ROUND 16]
+flower-client-node-1  | INFO :      Received: evaluate message 47379de562e1b0d74d8a24cb402255b7f4ed7bbf60c4de34bb5332e10f27c502
+flower-client-node-1  | INFO :      Start `flwr-clientapp` process
+flower-client-node-1  | INFO :      [flwr-clientapp] Pull `ClientAppInputs` for token 4440731184553843029
+flower-client-node-1  | INFO :      [flwr-clientapp] Push `ClientAppOutputs` for token 4440731184553843029
+flower-client-node-1  | Current validation accuracy is: 0.5052631578947369
+flower-client-node-1  | INFO :      Sent reply
+flower-client-node-1  | INFO :
+flower-client-node-1  | INFO :      [RUN 297223895073163394, ROUND 17]
+flower-client-node-1  | INFO :      Received: train message fbab15f41b905b7df056f3f8c87797490c7b59bf89d1155e45f434ae22e41461
+flower-client-node-1  | INFO :      Start `flwr-clientapp` process
+flower-client-node-1  | INFO :      [flwr-clientapp] Pull `ClientAppInputs` for token 14524417488434213956
+flower-client-node-1  | INFO :      [flwr-clientapp] Push `ClientAppOutputs` for token 14524417488434213956
+flower-client-node-1  | INFO :      Sent reply
+flower-client-node-1  | INFO :
+flower-client-node-1  | INFO :      [RUN 297223895073163394, ROUND 17]
+flower-client-node-1  | INFO :      Received: evaluate message fe98dd127fe98821cba65a4b81d87b1fc12f14f8f3ae9c5ba74409e5d4b7dccf
+flower-client-node-1  | INFO :      Start `flwr-clientapp` process
+flower-client-node-1  | INFO :      [flwr-clientapp] Pull `ClientAppInputs` for token 7883805339703393833
+flower-client-node-1  | INFO :      [flwr-clientapp] Push `ClientAppOutputs` for token 7883805339703393833
+flower-client-node-1  | Current validation accuracy is: 0.5052631578947369
+flower-client-node-1  | INFO :      Sent reply
+flower-client-node-1  | INFO :
+flower-client-node-1  | INFO :      [RUN 297223895073163394, ROUND 18]
+flower-client-node-1  | INFO :      Received: train message 53151f793a735ca5c0f9818835a6ef0a4b617f0e69cf26afa05f9dbd44bcb5ba
+flower-client-node-1  | INFO :      Start `flwr-clientapp` process
+flower-client-node-1  | INFO :      [flwr-clientapp] Pull `ClientAppInputs` for token 2315259237167161698
+flower-client-node-1  | INFO :      [flwr-clientapp] Push `ClientAppOutputs` for token 2315259237167161698
+flower-client-node-1  | INFO :      Sent reply
+flower-client-node-1  | INFO :
+flower-client-node-1  | INFO :      [RUN 297223895073163394, ROUND 18]
+flower-client-node-1  | INFO :      Received: evaluate message 795c37a775a22cdffda8dc0467327166e16f98da5a6530f210d1954784582aca
+flower-client-node-1  | INFO :      Start `flwr-clientapp` process
+flower-client-node-1  | INFO :      [flwr-clientapp] Pull `ClientAppInputs` for token 11652417998957499459
+flower-client-node-1  | INFO :      [flwr-clientapp] Push `ClientAppOutputs` for token 11652417998957499459
+flower-client-node-1  | Current validation accuracy is: 0.5052631578947369
+flower-client-node-1  | INFO :      Sent reply
+flower-client-node-1  | INFO :
+flower-client-node-1  | INFO :      [RUN 297223895073163394, ROUND 19]
+flower-client-node-1  | INFO :      Received: train message 7c5eccab5c33b0f0a142c0a4186d8f542305a3a3058bbe124523436a006b2720
+flower-client-node-1  | INFO :      Start `flwr-clientapp` process
+flower-client-node-1  | INFO :      [flwr-clientapp] Pull `ClientAppInputs` for token 8470490377439606564
+flower-client-node-1  | INFO :      [flwr-clientapp] Push `ClientAppOutputs` for token 8470490377439606564
+flower-client-node-1  | INFO :      Sent reply
+flower-client-node-1  | INFO :
+flower-client-node-1  | INFO :      [RUN 297223895073163394, ROUND 19]
+flower-client-node-1  | INFO :      Received: evaluate message 613065b75aa4f9ecfbdb401f925eca217d72764c545f083a85ddf5dfa54079a4
+flower-client-node-1  | INFO :      Start `flwr-clientapp` process
+flower-client-node-1  | INFO :      [flwr-clientapp] Pull `ClientAppInputs` for token 63950276317902623
+flower-client-node-1  | INFO :      [flwr-clientapp] Push `ClientAppOutputs` for token 63950276317902623
+flower-client-node-1  | Current validation accuracy is: 0.5052631578947369
+flower-client-node-1  | INFO :      Sent reply
+flower-client-node-1  | INFO :
+flower-client-node-1  | INFO :      [RUN 297223895073163394, ROUND 20]
+flower-client-node-1  | INFO :      Received: train message cee981f97201924942c05c30523c3bcd74f4a3713a8f6d3c7646043291d016f9
+flower-client-node-1  | INFO :      Start `flwr-clientapp` process
+flower-client-node-1  | INFO :      [flwr-clientapp] Pull `ClientAppInputs` for token 952329102125512160
+flower-client-node-1  | INFO :      [flwr-clientapp] Push `ClientAppOutputs` for token 952329102125512160
+flower-client-node-1  | INFO :      Sent reply
+flower-client-node-1  | INFO :
+flower-client-node-1  | INFO :      [RUN 297223895073163394, ROUND 20]
+flower-client-node-1  | INFO :      Received: evaluate message 83c7e1e11d9486808f166db2375be31d9dfe685e5926aeba666e230f5223033b
+flower-client-node-1  | INFO :      Start `flwr-clientapp` process
+flower-client-node-1  | INFO :      [flwr-clientapp] Pull `ClientAppInputs` for token 14168212961951224753
+flower-client-node-1  | INFO :      [flwr-clientapp] Push `ClientAppOutputs` for token 14168212961951224753
+flower-client-node-1  | Current validation accuracy is: 0.5052631578947369
+flower-client-node-1  | INFO :      Sent reply
