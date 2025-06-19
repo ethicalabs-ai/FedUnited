@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  flower-client-node:
+    build: .
+    environment:
+      SUPERLINK: "fedunited.flower.ai:443"
+      NODE_DATA_PATH: "/app/data/data_15.npz"
+    volumes:
+      - ./data:/app/data
